@@ -1,0 +1,21 @@
+# Ignore everything by default.
+*
+
+# Keep directory traversal so nested source files can be included.
+!*/
+
+# Keep repository metadata/docs.
+!.gitignore
+!/README.md
+
+# Backup scope requested by the user.
+!*.ipynb
+!*.py
+!*.R
+
+# Local/tool/cache files should stay out of the backup.
+.agents/
+.serena/
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
